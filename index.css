@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(110, 76, 68, 0.1);
+}
+
+/*LOGO + TITULO CENTRAOS*/
+.titulo1{
+    text-align: center;
+    font-size: 70px;
+}
+.titulo2{
+    color: black;
+    font-family: "Baskerville Old Face"
+}
+
+.titulo3{
+    color: #606060;
+    font-size: 30px;
+}
+
+.icono{
+    vertical-align: middle;
+}
+
+/*RRSS - bajo derecha*/
+.twitter {
+    padding-right: 1em;
+}
+.instagram {
+    padding-right: 1em;
+}
+
+
+/*INICIO MENU*/
+.sprite-inicio {
+    background: url("img/igono-inicio1.png") no-repeat top left;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    width: 33px; height: 30px;
+}
+.menu-inicio{
+    border-bottom: 1px solid black;
+    line-height: 1;
+    text-align: right;
+    padding: 1px 1px 8px 10px;
+    float: left;
+    width: 99%;
+}
+
+.menu-inicio a{
+    text-decoration: none;
+    color: #606060;
+    -webkit-transition: all 0.3s ease; -o-transition: all 0.3s ease; -moz-transition: all 0.3s ease;
+}
+
+.menu-inicio a:hover{
+    color: #ffffff;
+    background-color: #CD5C5C;
+    padding: 10px 6px 6px 6px;
+
+}
+
+.menu-inicio li{
+    display: inline;
+    padding: 10px;
+}
+/*FINAL MENU*/

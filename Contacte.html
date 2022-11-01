@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UAB/Enginyeria/PracticaTDIW/GrupH/Registre</title>
+    <link rel="stylesheet" type="text/css" href="Contacte.css">
+</head>
+
+
+<body id="Registre">
+  <section>
+    <header>
+      <h3>Registra't com soci del taller: </h3>
+      <p>Si us plau facilita'ns les teves dades</p>
+    </header>
+
+    <form method="post" action="">
+        Nom complet: <input type="text" name="nom" required/><br />
+        Password: <input type="text" name="clau" required/><br />
+        Repeteix password: <input type="text" required /><br />
+        Mail: <input type="email" name="mail" required /><br />
+        Telefon: <input type="tel" name="telef" required /><br />
+        Data de naixement: <input type="date" name="dataNaixement" required /><br />
+        <br />
+
+        <div id="Seleccion-Terminos-Uso">
+        <label for="yes_no_radio">Acepta los terminos y condiciones de uso de la plataforma?</label>
+        <p>
+            <input type="radio" name="yes_no" checked>Si</input>
+        </p>
+        <p>
+            <input type="radio" name="yes_no">No</input>
+        </p>
+        </div>
+
+
+
+        <br />
+       <br />
+      <input type="submit" value="Registrar-me" />
+    </form>
+  </section>
+</body>
+</html>
