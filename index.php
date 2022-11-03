@@ -1,7 +1,7 @@
 <?php
 
 // index.php
-
+//works
  $accio = $_GET['accio'] ?? NULL;
 
  switch ($accio) {
@@ -12,11 +12,6 @@
         include __DIR__.'/resource_portada.php';
         break;
  }
-
-
-
-
-
 
 ?>
 
